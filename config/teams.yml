@@ -1,0 +1,120 @@
+- { "Team": "Germany",
+    "Pot": "1",
+    "Group": "A",
+    "Rank": 1
+}
+- { "Team": "Portugal",
+    "Pot": "1",
+    "Group": "F",
+    "Rank": 2
+}
+- { "Team": "France",
+    "Pot": "1",
+    "Group": "D",
+    "Rank": 3
+}
+- { "Team": "Spain",
+    "Pot": "1",
+    "Group": "A",
+    "Rank": 4
+}
+- { "Team": "Belgium",
+    "Pot": "1",
+    "Group": "E",
+    "Rank": 5
+}
+- { "Team": "England",
+    "Pot": "1",
+    "Group": "C",
+    "Rank": 6
+}
+- { "Team": "Hungary",
+    "Pot": "2",
+    "Group": "A",
+    "Rank": 7
+}
+- { "Team": "Turkey",
+    "Pot": "2",
+    "Group": "F",
+    "Rank": 8
+}
+- { "Team": "Romania",
+    "Pot": "2",
+    "Group": "E",
+    "Rank": 9
+}
+- { "Team": "Denmark",
+    "Pot": "2",
+    "Group": "C",
+    "Rank": 10
+}
+- { "Team": "Albania",
+    "Pot": "2",
+    "Group": "A",
+    "Rank": 11
+}
+- { "Team": "Austria",
+    "Pot": "2",
+    "Group": "D",
+    "Rank": 12
+}
+- { "Team": "Netherlands",
+    "Pot": "3",
+    "Group": "D",
+    "Rank": 13
+}
+- { "Team": "Scotland",
+    "Pot": "3",
+    "Group": "A",
+    "Rank": 14
+}
+- { "Team": "Croatia",
+    "Pot": "3",
+    "Group": "A",
+    "Rank": 15
+}
+- { "Team": "Slovenia",
+    "Pot": "3",
+    "Group": "C",
+    "Rank": 16
+}
+- { "Team": "Slovakia",
+    "Pot": "3",
+    "Group": "E",
+    "Rank": 17
+}
+- { "Team": "Czech Republic",
+    "Pot": "3",
+    "Group": "F",
+    "Rank": 18
+}
+- { "Team": "Italy",
+    "Pot": "4",
+    "Group": "A",
+    "Rank": 19
+}
+- { "Team": "Serbia",
+    "Pot": "4",
+    "Group": "C",
+    "Rank": 20
+}
+- { "Team": "Switzerland",
+    "Pot": "4",
+    "Group": "A",
+    "Rank": 21
+}
+- { "Team": "Poland",
+    "Pot": "4",
+    "Group": "D",
+    "Rank": 22
+}
+- { "Team": "Ukraine",
+    "Pot": "4",
+    "Group": "E",
+    "Rank": 23
+}
+- { "Team": "Georgia",
+    "Pot": "4",
+    "Group": "F",
+    "Rank": 24
+}
