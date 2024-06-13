@@ -7,10 +7,10 @@ import random
 
 
 def random_assigned_draw() -> dict[Any, list[Any]]:
-    teams = TeamsLoader("teams.yml").list_teams()
-    teams_config = TeamsLoader("teams.yml").config
-    players = PlayersLoader("players.yml").list_players()
-    players_config = PlayersLoader("players.yml").config
+    teams = TeamsLoader("config/teams.yml").list_teams()
+    teams_config = TeamsLoader("config/teams.yml").config
+    players = PlayersLoader("config/players.yml").list_players()
+    players_config = PlayersLoader("config/players.yml").config
 
     lots = []
     final_draw = {}

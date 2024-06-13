@@ -1,5 +1,7 @@
 import yaml
 
+from animations import Animations
+
 
 class ConfigLoader:
     def __init__(self, file):
@@ -7,7 +9,7 @@ class ConfigLoader:
         self.yml = self._load_yml()
 
     def _load_yml(self):
-        with open(f'config/{self.file}', 'r') as yml_file:
+        with open(f'{self.file}', 'r') as yml_file:
             return yaml.safe_load(yml_file)
 
 
@@ -36,3 +38,14 @@ class PlayersLoader(ConfigLoader):
 
     def list_players(self):
         return [player for player in self.yml]
+
+class DrawLoader(ConfigLoader):
+    def __init__(self, file):
+        super().__init__(file)
+        self.config = self.yml
+
+
+if __name__ == '__main__':
+    results = DrawLoader("results.yml").config
+
+    Animations(results).draw()
