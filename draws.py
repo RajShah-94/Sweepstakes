@@ -20,6 +20,11 @@ def random_assigned_draw() -> dict[Any, list[Any]]:
             lots.append(player)
             players_config[player]['entries'] -= 1
 
+    try:
+        assert len(lots) <= len(teams)
+    except Exception:
+       raise Exception(f"More players than teams: {len(lots)} vs {len(teams)}")
+
     for lot in lots:
         if lot in final_draw:
             teams_removed = []
@@ -33,7 +38,14 @@ def random_assigned_draw() -> dict[Any, list[Any]]:
         else:
             teams_allowed = teams
 
+        try:
+            assert len(teams_allowed) > 0
+        except Exception:
+            raise Exception(f"Unable to complete matchings")
+
         allocated_team = random.choice(teams_allowed)
+        teams.remove(allocated_team)
+
 
         if not lot in final_draw:
             final_draw[lot] = [allocated_team]
