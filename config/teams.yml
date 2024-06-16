@@ -15,7 +15,7 @@
 }
 - { "Team": "Spain",
     "Pot": "1",
-    "Group": "A",
+    "Group": "B",
     "Rank": 4
 }
 - { "Team": "Belgium",
@@ -50,7 +50,7 @@
 }
 - { "Team": "Albania",
     "Pot": "2",
-    "Group": "A",
+    "Group": "B",
     "Rank": 11
 }
 - { "Team": "Austria",
@@ -70,7 +70,7 @@
 }
 - { "Team": "Croatia",
     "Pot": "3",
-    "Group": "A",
+    "Group": "B",
     "Rank": 15
 }
 - { "Team": "Slovenia",
@@ -90,7 +90,7 @@
 }
 - { "Team": "Italy",
     "Pot": "4",
-    "Group": "A",
+    "Group": "B",
     "Rank": 19
 }
 - { "Team": "Serbia",
