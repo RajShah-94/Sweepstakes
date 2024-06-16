@@ -7,10 +7,13 @@ import random
 
 
 def random_assigned_draw() -> dict[Any, list[Any]]:
-    teams = TeamsLoader("config/teams.yml").list_teams()
-    teams_config = TeamsLoader("config/teams.yml").config
-    players = PlayersLoader("config/players.yml").list_players()
-    players_config = PlayersLoader("config/players.yml").config
+    teams_file = "config/teams.yml"
+    players_file = "config/players.yml"
+
+    teams = TeamsLoader(teams_file).list_teams()
+    teams_config = TeamsLoader(teams_file).config
+    players = PlayersLoader(players_file).list_players()
+    players_config = PlayersLoader(players_file).config
 
     lots = []
     final_draw = {}
@@ -29,9 +32,9 @@ def random_assigned_draw() -> dict[Any, list[Any]]:
         if lot in final_draw:
             teams_removed = []
             for drawn_team in final_draw[lot]:
-                rank = teams_config[drawn_team]['Rank']
+                group = teams_config[drawn_team]['Group']
                 for team in teams_config:
-                    if teams_config[team]['Rank'] == rank:
+                    if teams_config[team]['Group'] == group:
                         teams_removed.append(team)
 
             teams_allowed = [team for team in teams if team not in teams_removed]
